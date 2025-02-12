@@ -1,0 +1,15 @@
+#app {
+    display: grid;
+    grid-template-columns: 35.9375% 64.0625%; /* (width x 100) / 1280 */
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+aside {
+    
+}
+
+main {
+    overflow: auto;
+}
