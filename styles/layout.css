@@ -12,4 +12,5 @@ aside {
 
 main {
     overflow: auto;
+    padding: 5rem;
 }
