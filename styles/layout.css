@@ -7,10 +7,32 @@
 }
 
 aside {
-    
+    background-image: url(../assets/Background.png);
+    padding: 2rem;
+
+    & .aside-container {
+        max-width: 21rem;
+    }
+
+    & img {
+        width: 2.8rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    & p {
+        font: var(--body-md);
+        font-weight: 300;
+        margin-top: .25rem;
+    }
 }
 
 main {
     overflow: auto;
     padding: 5rem;
+
+    & .main-container {
+        max-width: 35rem;
+        margin-right: auto;
+    }
 }

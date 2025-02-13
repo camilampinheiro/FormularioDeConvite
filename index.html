@@ -14,7 +14,10 @@
     <div id="app">
         <aside>
             <div class="aside-container">
+                <img src="assets/Logo.svg" alt="Logo Festivite">
 
+                <h1>Festivite</h1>
+                <p>Crie um convite digital para o seu evento</p>
             </div>
         </aside>
 
@@ -35,23 +38,23 @@
                         </div>
 
                         <div class="flex">
-                            <div class="input-wrapper">
+                            <div class="input-wrapper flex-1">
                                 <label for="start">Início</label>
                                 <input type="datetime-local" id="start" name="start">
                             </div>
 
-                            <div class="input-wrapper">
+                            <div class="input-wrapper flex-1">
                                 <label for="end">Fim</label>
                                 <input type="datetime-local" id="end" name="end">
                             </div>
                         </div>
 
                         <div class="flex">
-                            <div class="input-wrapper">
+                            <div class="input-wrapper flex-1">
                                 <label for="type">Tipo</label>
                             </div>
 
-                            <div class="input-wrapper">
+                            <div class="input-wrapper flex-1">
                                 <label for="local">Local</label>
                                 <input type="text" id="local" name="local" placeholder="Link ou endereço">
                             </div>
@@ -59,7 +62,24 @@
 
                         <div class="textarea-wrapper">
                             <label for="description">Descrição</label>
-                            <textarea name="description" id="description" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                            <textarea name="description" id="description" placeholder="Escreva sobre os detalhes do evento" cols="30" rows="5"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="personalization">
+                        <legend>
+                            <span><img src="assets/icons/paintbrush-vertical.svg" alt=""></span>
+                            Personalização
+                        </legend>
+
+                        <div class="input-wrapper">
+                            <label for="color">Cor principal</label>
+
+                            <div class="radio-wrapper">
+                                <div class="radio-inner">
+                                    <input type="radio" id="brand-light" name="color">
+                                </div>
+                            </div>
                         </div>
                     </fieldset>
                 </form>
