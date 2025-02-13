@@ -39,3 +39,24 @@ input:focus, textarea:focus, input[type="datetime-local"]:focus-within {
     outline-offset: .1px;
 }
 
+input {
+    &:invalid {
+        border: .125rem solid var(--danger);
+    }
+
+    &[required] + .error {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+
+        font: var(--body-xs);
+        color: var(--danger);
+
+        margin-top: .5rem;
+    }
+
+    &:not(:focus):valid + .error{
+        display: none;
+    }
+}
+
