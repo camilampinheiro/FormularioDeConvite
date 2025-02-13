@@ -8,6 +8,8 @@
 
 aside {
     background-image: url(../assets/Background.png);
+    background-size: cover;
+    background-position: center;
     padding: 2rem;
 
     & .aside-container {
