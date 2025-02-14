@@ -1,0 +1,7 @@
+.dropzone {
+    & input {
+        all: unset;
+
+        color: var(--input-placeholder);
+    }
+}
